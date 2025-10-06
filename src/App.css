@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.student-info {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #61dafb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.student-info h2 {
+  color: #61dafb;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.student-info p {
+  margin: 8px 0;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.student-info strong {
+  color: #61dafb;
+}

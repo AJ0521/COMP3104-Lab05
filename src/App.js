@@ -6,8 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to React SPA Lab</h1>
+        <div className="student-info">
+          <h2>Student Information</h2>
+          <p><strong>Student ID:</strong> 101505643</p>
+          <p><strong>Student Name:</strong> Abrar Junaid</p>
+          <p><strong>Course:</strong> COMP3104 - DevOps</p>
+          <p><strong>Lab:</strong> React SPA Development</p>
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This React app is running successfully! 🚀
         </p>
         <a
           className="App-link"
